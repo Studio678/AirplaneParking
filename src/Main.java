@@ -16,7 +16,6 @@ public class Main {
     private final static int PARKING_VOLUME = 5;
     public static void main(String[] args) throws IOException {
         ParkingStack parkingStack1 = new ParkingStack();
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         while(true) {
             //input block
