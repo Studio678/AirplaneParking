@@ -16,7 +16,7 @@ class ParkingStack {
     }
 
     String popParkingStack(){
-        return parkingStack.remove(0);
+        return parkingStack.remove(getParkingStackLength()-1);
     }
 
     void pushParkingStack(String airplaneNumber){
